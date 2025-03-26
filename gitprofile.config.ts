@@ -106,9 +106,9 @@ const CONFIG = {
   experiences: [
     {
       company: 'MoodRoom',
-      position: 'Software Engineer',
+      position: 'Sole Backend Software Engineer | Contract',
       from: 'January 2025',
-      to: 'Present',
+      to: 'March 2025',
       companyLink: 'https://moodroom.io/',
     },
     {
