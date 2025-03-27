@@ -36,14 +36,16 @@ const CONFIG = {
           title: 'Code Judge',
           description:
             'A Rust CLI application that judges your code quality against OOP principles and architectural patterns',
-          imageUrl: 'assets/code-judge.png',
+          imageUrl:
+            'https://black-necessary-felidae-964.mypinata.cloud/ipfs/bafkreihoqd3ew2ojsrf2enb6ig3jpejqqec5jdfzickylhfjfhbdmrbt3m',
           link: 'https://github.com/hanpham32/code-judge',
         },
         {
           title: 'Gaia EigenLayer AVS',
           description:
             'A EigenLayer Gaia Node Template provides a foundation for building and managing Gaia Node services on the EigenLayer testnet.',
-          imageUrl: 'assets/2025-03-26-14-43-49.png',
+          imageUrl:
+            'https://black-necessary-felidae-964.mypinata.cloud/ipfs/bafkreicbvuwxkvowgwtmre3pw6biwbqdljphedh4r4e5diwj3chmpa43zi',
           link: 'https://github.com/hanpham32/gaia-eigenlayer-avs-blueprint',
         },
       ],
