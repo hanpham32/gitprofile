@@ -108,10 +108,17 @@ const CONFIG = {
   experiences: [
     {
       company: 'MoodRoom',
-      position: 'Sole Backend Software Developer',
+      position: 'Full-stack Developer | Founding Member',
       from: 'January 2025',
-      to: 'March 2025',
+      to: 'Present',
       companyLink: 'https://moodroom.io/',
+    },
+    {
+      company: 'Gaia',
+      position: 'Ambassador',
+      from: 'March 2025',
+      to: 'Present',
+      companyLink: 'https://www.gaianet.ai/',
     },
     {
       company: 'SeeAlgo',
