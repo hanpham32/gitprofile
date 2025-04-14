@@ -33,6 +33,13 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Pokemon trainers best friend',
+          description:
+            'A pokemon web app to look up pokemon weaknesses, resistances, ev yields, etc',
+          imageUrl: '/pikachu_flaticon.png',
+          link: 'https://trainertool-sigma.vercel.app/',
+        },
+        {
           title: 'Code Judge',
           description:
             'A Rust CLI application that judges your code quality against OOP principles and architectural patterns',
