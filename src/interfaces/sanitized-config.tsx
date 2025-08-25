@@ -43,6 +43,8 @@ export interface SanitizedSEO {
 }
 
 export interface SanitizedSocial {
+  bluesky?: string;
+  bearblog?: string;
   linkedin?: string;
   x?: string;
   mastodon?: string;

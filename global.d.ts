@@ -112,6 +112,10 @@ interface Social {
    */
   linkedin?: string;
 
+  bluesky?: string;
+
+  bearblog?: string;
+
   /**
    * X (formerly Twitter)
    */

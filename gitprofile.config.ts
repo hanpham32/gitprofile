@@ -66,21 +66,8 @@ const CONFIG = {
   social: {
     linkedin: 'hansopham',
     x: 'hanspham_',
-    mastodon: '',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'hanspham',
-    dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
+    bluesky: 'han0x.bsky.social',
+    bearblog: 'https://han0x.bearblog.dev/',
     website: 'https://www.hanspham.com',
     phone: '',
     email: '',

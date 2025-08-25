@@ -19,6 +19,8 @@ import {
   FaTelegram,
   FaYoutube,
 } from 'react-icons/fa';
+import { PiButterfly } from 'react-icons/pi';
+import { RiBearSmileLine } from 'react-icons/ri';
 import { FaSquareThreads } from 'react-icons/fa6';
 import { MdLocationOn } from 'react-icons/md';
 import { RiMailFill, RiPhoneFill } from 'react-icons/ri';
@@ -210,14 +212,6 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`https://www.researchgate.net/profile/${social.researchGate}`}
                 />
               )}
-              {social?.x && (
-                <ListItem
-                  icon={<SiX />}
-                  title="X:"
-                  value={social.x}
-                  link={`https://x.com/${social.x}`}
-                />
-              )}
               {social?.mastodon && (
                 <ListItem
                   icon={<FaMastodon />}
@@ -306,20 +300,20 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`https://medium.com/@${social.medium}`}
                 />
               )}
-              {social?.dev && (
+              {social?.bluesky && (
                 <ListItem
-                  icon={<FaDev />}
-                  title="Dev:"
-                  value={social.dev}
-                  link={`https://dev.to/${social.dev}`}
+                  icon={<PiButterfly />}
+                  title="Blueksy:"
+                  value={social.bluesky}
+                  link={social.bluesky}
                 />
               )}
-              {social?.stackoverflow && (
+              {social?.bearblog && (
                 <ListItem
-                  icon={<FaStackOverflow />}
-                  title="Stack Overflow:"
-                  value={social.stackoverflow.split('/').slice(-1)}
-                  link={`https://stackoverflow.com/users/${social.stackoverflow}`}
+                  icon={<RiBearSmileLine />}
+                  title="Bearblog:"
+                  value={social.bearblog}
+                  link={social.bearblog}
                 />
               )}
               {social?.website && (
@@ -334,6 +328,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                       ? `http://${social.website}`
                       : social.website
                   }
+                />
+              )}
+              {social?.x && (
+                <ListItem
+                  icon={<SiX />}
+                  title="X:"
+                  value={social.x}
+                  link={`https://x.com/${social.x}`}
                 />
               )}
               {social?.skype && (
